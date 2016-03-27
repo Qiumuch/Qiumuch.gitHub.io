@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Github+Hexo博客搭建 | Eumo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="使用github.io可以搭建一个自己的博客,把静态文件项目托管到github上,可以写博客,可以使用markdown语法,也可以展示作品.灵活性高.但是有较大的难度.
+node,git版本变化日新月异,每段时间都会有不同,而这个小不同可能直接导致搭建失败.这里把我搭建的过程记录下来.如果将来搭建失败,可以参考,下载对应的版本尝试.
+搭建步骤:123456789101112131415161718">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Github+Hexo博客搭建">
+<meta property="og:url" content="https://yoursite.com/2016/03/27/Github-Hexo博客搭建.html">
+<meta property="og:site_name" content="Eumo">
+<meta property="og:description" content="使用github.io可以搭建一个自己的博客,把静态文件项目托管到github上,可以写博客,可以使用markdown语法,也可以展示作品.灵活性高.但是有较大的难度.
+node,git版本变化日新月异,每段时间都会有不同,而这个小不同可能直接导致搭建失败.这里把我搭建的过程记录下来.如果将来搭建失败,可以参考,下载对应的版本尝试.
+搭建步骤:123456789101112131415161718">
+<meta property="og:updated_time" content="2016-03-27T08:08:53.224Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Github+Hexo博客搭建">
+<meta name="twitter:description" content="使用github.io可以搭建一个自己的博客,把静态文件项目托管到github上,可以写博客,可以使用markdown语法,也可以展示作品.灵活性高.但是有较大的难度.
+node,git版本变化日新月异,每段时间都会有不同,而这个小不同可能直接导致搭建失败.这里把我搭建的过程记录下来.如果将来搭建失败,可以参考,下载对应的版本尝试.
+搭建步骤:123456789101112131415161718">
+  
+    <link rel="alternate" href="/atom.xml" title="Eumo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Eumo</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">www.qiumuch.github.io</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Github-Hexo博客搭建" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/03/27/Github-Hexo博客搭建.html" class="article-date">
+  <time datetime="2016-03-27T07:59:14.000Z" itemprop="datePublished">2016-03-27</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Github+Hexo博客搭建
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>使用github.io可以搭建一个自己的博客,把静态文件项目托管到github上,可以写博客,可以使用markdown语法,也可以展示作品.灵活性高.但是有较大的难度.</p>
+<p>node,git版本变化日新月异,每段时间都会有不同,而这个小不同可能直接导致搭建失败.这里把我搭建的过程记录下来.如果将来搭建失败,可以参考,下载对应的版本尝试.</p>
+<h3 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤:"></a>搭建步骤:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">1.安装好node和git,注册好github账号. 注意:用户名一定不能有大写.</span><br><span class="line"></span><br><span class="line">想下载最新的git可以尝试这个地址: http://msysgit.github.io/</span><br><span class="line"></span><br><span class="line">想下载我使用的版本,移步我的网盘: http://pan.baidu.com/s/1qWt5u36</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">2.安装hexo:</span><br><span class="line"></span><br><span class="line">执行: npm install -g hexo</span><br><span class="line"></span><br><span class="line">这里常常安装了一半就卡住装不下去了,fq后就ok了...</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">3.创建hexo文件夹:</span><br><span class="line"></span><br><span class="line">自己找一个喜欢的路径,创建hexo文件夹,我的是安装在 E:\hexo 下的. </span><br><span class="line"></span><br><span class="line">cmd窗口切换到对应的目录下,然后执行: hexo init </span><br><span class="line"></span><br><span class="line">也可以在 E:\hexo 下右键,选择git bash,在窗口中执行 hexo init</span><br><span class="line"></span><br><span class="line">它就自动安装了需要的文件.</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">4.安装依赖:</span><br><span class="line"></span><br><span class="line">继续执行: npm install</span><br><span class="line"></span><br><span class="line">安装好了所有的依赖</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">5.完成本地安装:</span><br><span class="line"></span><br><span class="line">继续在 E:\hexo 下执行:  hexo generate</span><br><span class="line"></span><br><span class="line">继续执行: hexo server</span><br><span class="line"></span><br><span class="line">然后在打开浏览器 localhost:4000 ,就可以看到,本地已经安装好了.</span><br></pre></td></tr></table></figure>
+<h3 id="生成测试页面"><a href="#生成测试页面" class="headerlink" title="生成测试页面"></a>生成测试页面</h3><p>进入刚才创建的仓库,点击右边菜单中的Settings按钮，在跳转到的页面 Update your site 对应处点击“Automatic page generator”按钮，这样就有了一个github自动生成的页面用来测试的时候使用。之后点击继续。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://yoursite.com/2016/03/27/Github-Hexo博客搭建.html" data-id="cimaay5600000tso0ks4jgmwx" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/03/27/hello-world.html" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/03/27/Github-Hexo博客搭建.html">Github+Hexo博客搭建</a>
+          </li>
+        
+          <li>
+            <a href="/2016/03/27/hello-world.html">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 Qiu Much<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
